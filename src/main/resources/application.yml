@@ -22,7 +22,7 @@ server.servlet.encoding:
 # JSON WebToken 설정
 jwt:
   header: Authorization
-  secret: YWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd6eXoxMjMxMjMxMjMxMjMxMjMxMzEyMzEyMzEzMTIzMTIzMTIzMTMxMjMxMzEzMTMxMjM
+  secret: QGHd2NpKOzvTMjxDHeF5YnmtBDcku9IEb1JGQGNvfJUgnpwZ4pDVynbe31TNZQwd5VWaQGiin4JsFv7e7+pz/w==
   expiration: 3600
 
 springdoc:
@@ -41,6 +41,3 @@ external:
     host: https://codetest-v4.3o3.co.kr
     x-api-key: fQL4PtoGRRgj6Q1OZG1WpQ==
 
-logging.level.org:
-  hibernate.type.descriptor:
-    sql: debug
